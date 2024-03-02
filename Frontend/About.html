@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta name="viewpoint" content="with=device-width, inital-scale=1.0">
+    <title>Mess Allocation</title>
+    <link rel="stylesheet" href="Login Button.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/481b3b47c6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="Login Button.html"><img src="" alt=""></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="Login Button.html">HOME</a></li>
+                <li><a href="">CUISINE</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="index.html">LOGOUT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>About Us</h1>
+    
+</section>
+
+<!---------Footer------->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>This revolutionary idea was developed by us due to our PBL Project and we made it!</p>
+    <h2>Made by</h2>
+    <ul class="names">
+        <li>Gitesh Patil</li>
+        <li>Yashraj Panhalkar</li>
+        <li>Sahil Shrotri</li>
+        <li>Bhushan Wagh</li>
+        <li>Aanuj Maheshwari</li>
+        <li>Parth Ingle</li>
+    </ul>
+
+    <div class="icon">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by 2B62023</p>
+</section>
+
+<!-------JavaScript for Toggle Menu------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right= "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+
+</body>
+    </html>
